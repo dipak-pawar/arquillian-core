@@ -50,6 +50,13 @@
       <tag>HEAD</tag>
   </scm>
 
+    <repositories>
+        <repository>
+            <id>bintray-cbeust-maven</id>
+            <name>bintray</name>
+            <url>http://dl.bintray.com/cbeust/maven</url>
+        </repository>
+    </repositories>
     <modules>
         <module>build</module>
         <module>core</module>
@@ -64,6 +71,7 @@
         <module>protocols</module>
 
         <module>bom</module>
+      <module>test-testng</module>
     </modules>
 
     <build>

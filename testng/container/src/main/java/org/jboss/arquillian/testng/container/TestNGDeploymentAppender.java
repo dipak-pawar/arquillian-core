@@ -60,7 +60,7 @@ public class TestNGDeploymentAppender extends CachedAuxilliaryArchiveAppender
             archive, 
             Filters.includeAll(), 
             "com.beust");
-
+      System.out.println(archive.toString(true));
       return archive;
    }
    

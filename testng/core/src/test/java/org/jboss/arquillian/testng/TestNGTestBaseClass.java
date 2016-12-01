@@ -204,7 +204,7 @@ public class TestNGTestBaseClass
       XmlSuite suite = new XmlSuite();
       suite.setName("Arquillian - TEST");
 
-      suite.setConfigFailurePolicy("continue");
+      suite.setConfigFailurePolicy(XmlSuite.FailurePolicy.CONTINUE);
       XmlTest test = new XmlTest(suite);
       if(groups != null)
       {

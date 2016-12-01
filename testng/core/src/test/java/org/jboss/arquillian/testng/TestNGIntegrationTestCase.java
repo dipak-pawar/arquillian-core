@@ -41,7 +41,8 @@ import org.testng.TestListenerAdapter;
  * @version $Revision: $
  */
 @RunWith(MockitoJUnitRunner.class)
-public class TestNGIntegrationTestCase extends TestNGTestBaseClass
+public class
+TestNGIntegrationTestCase extends TestNGTestBaseClass
 {
    @Test @Ignore("ARQ-582")
    public void shouldNotCallAnyMethodsWithoutLifecycleHandlers() throws Exception
